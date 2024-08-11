@@ -1,0 +1,32 @@
+.texto-bisque {
+    background-color: bisque;
+    color: black;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+.texto-marrom {
+    color: brown;
+}
+
+.texto-maior {
+    font-size: 24px;
+}
+
+.texto-branco {
+    color: white;
+}
+
+.fundo-amarelo {
+    background-color: yellow;
+}
+
+.fundo-marrom {
+    background-color: brown;
+}
