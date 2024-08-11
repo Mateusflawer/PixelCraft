@@ -6,68 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 max-scale=1, shrink-to-fit=no">
     <title>Meu site</title>
     <style>
-        .vermelho {
-            background-color: red;
-        }
-
-        .azul {
-            background-color: blue;
-        }
-
-        .marrom {
-            background-color: brown;
-        }
-
-        .cinza {
-            background-color: gray;
-        }
-
         .texto-bisque {
             background-color: bisque;
             color: black;
-        }
-
-        .amarelo {
-            background-color: yellow;
         }
 
         .texto-vermelho {
             color: red;
         }
 
+        .texto-azul {
+            color: blue;
+        }
+
+        .texto-marrom {
+            color: brown;
+        }
+
         .texto-maior {
             font-size: 24px;
+        }
+
+        .texto-branco {
+            color: white;
+        }
+
+        .fundo-amarelo {
+            background-color: yellow;
+        }
+
+        .fundo-marrom {
+            background-color: brown;
         }
     </style>
 </head>
 
 <body>
-    <h1 class="marrom">MEU H</h1>
-    <p class="texto-bisque"><b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <em>sit</em> amet consectetur adipisicing
-        elit.
-        <br>Voluptate
-        consequatur accusamus dolores 2<sup>2</sup> iste sequi vitae unde hic impedit non? <br>Facilis possimus expedita
-        pariatur
-        H<sub>2</sub>O <q cite="http://127.0.0.1:5500/site/">sumolestias tenetur sint ut</q> consectetur ratione
-        <br><small>dignissimos</small>.
-        <del>vermelho</del> <ins>azul</ins>, <s>doidera</s>.
+    <h1 class="fundo-marrom texto-branco">Meu primeiro site</h1>
+    <p class="texto-bisque">
+        <b>Lorem</b> <strong>ipsum</strong> dolor <i>sit</i> amet <em>consectetur</em> adipisicing elit.
+        <br>Suscipit <small>exercitationem</small> quam nam sed modi praesentium doloremque!
+        <br>Earum possimus voluptate numquam nam rerum adipisci, laborum, aspernatur, debitis dolore reprehenderit
+        libero quibusdam!
+        <br><q cite="https://validator.w3.org/nu/#textarea">This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change</q>
+        <br>De <del>vermelho</del> foi para <ins>azul</ins>.
+        <br>H<sub>2</sub>O e 2<sup>2</sup> é <s>refrigerante!</s>
 
     </p>
 
     <!-- primeiro html -->
     <hr>
-    <h2>
-        <a href="https://www.youtube.com/watch?v=gADmcYuA4wk" target="_blank">
-            <img class="img-in-text"
-                src="https://i.ytimg.com/vi/gADmcYuA4wk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9Vw8VFTSaSXkZRDZJyR-Jv5NGfw"
-                alt="LINK CLIMA DE BATALHA">
-        </a>
-        <span class="vermelho">
-            CORAÇÃO DE LEÃO | A música cria forte motivação | Músicas que fazem você se sentir imparável
-        </span>
+    <a href="https://www.youtube.com/watch?v=gADmcYuA4wk" target="_blank">
+        <img class="img-in-text"
+            src="https://i.ytimg.com/vi/gADmcYuA4wk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9Vw8VFTSaSXkZRDZJyR-Jv5NGfw"
+            alt="LINK CLIMA DE BATALHA">
+    </a>
+    <h2 class="texto-marrom fundo-amarelo">
+        CORAÇÃO DE LEÃO | A música cria forte motivação | Músicas que fazem você se sentir imparável
     </h2>
     <hr>
     <pre>
+        Testando código:
         <code>
             logging.basicConfig(
                 level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s'
@@ -79,12 +78,14 @@
         Aqui está meu bloco de citação
     </blockquote>
     <span class="texto-vermelho texto-maior">
-        TESTANDO SPAAANNN
+        Testando SPAN (é uma linha)
     </span>
-    <div class="vermelho texto-maior">
-        EU SOU UM BLOCO
+    <div class="texto-azul texto-maior">
+        Testando DIV (é um bloco)
     </div>
-    DOIDERA
+    <p>
+        Muito Bom!!!
+    </p>
 </body>
 
 </html>
